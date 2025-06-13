@@ -1,0 +1,10 @@
+I want to make a website like Linktree in this project. The goal is that user can showcase their social media links and products they are selling or affiliated. Minimum data required to store in the database are User Data, Profile or Page, Links, and Analytics. A user can login via email or social login ID (e.g. Google account). Each user can have more than one profile or page and they can switch between profiles without relogin. An administrative login page is required to manage users, pages, links and to view analitycs reports. The project uses laravel v11 and mysql database. You may use breeze or other dashboard template. Do not code anything yet.
+Let's start the coding by creating migration for admins table and the admin login and authentication with default email demo@smart-it.co.id and password demo@2025!@#
+Let's add softdeletes column, created_by, updated_by, and deleted_by columns to this migration. And from this point forward, I want to add timestampts, softdeletes, created_by, updated_by, and deleted_by columns on each tables.
+Next, let's add these columns
+1. profile_picture
+2. softdeletes
+3. created_by
+4. updated_by
+5. deleted_by
+to users table. You may add other column needed for social login information.
